@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.11.5,kivy==2.2.1,kivymd,mysql,pymysql,django,requests
+requirements = python3==3.11.5,kivy==2.2.1,kivymd,mysql,pymysql,django,requests,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -70,12 +70,13 @@ orientation = portrait
 #
 # OSX Specific
 #
-
+# python version to use
+osx.python_version = 3.11.5
 #
 # author = © Copyright Info
 
 # Kivy version to use
-osx.kivy_version = 2.2.0
+osx.kivy_version = 2.2.1
 
 #
 # Android specific
